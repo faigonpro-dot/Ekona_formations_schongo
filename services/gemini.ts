@@ -2,7 +2,7 @@
 import { GoogleGenAI, Type } from "@google/genai";
 
 // Utilisation de process.env.GEMINI_API_KEY comme requis par la plateforme
-const apiKey = process.env.GEMINI_API_KEY || '';
+const apiKey = import.meta.env.VITE_GEMINI_API_KEY || '';
 
 export async function getPathDescription(title: string, subtitle: string) {
   if (!apiKey) {
