@@ -1,0 +1,5 @@
+{
+  "name": "Kiosque d'Orientation Scolaire",
+  "description": "Une application interactive conçue pour un écran vertical de 65 pouces, présentant les différentes filières de formation (CAP, Bac Pro, BTS, etc.) avec une interface tactile optimisée.",
+  "requestFramePermissions": []
+}
